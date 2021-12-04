@@ -13,7 +13,7 @@ KTU 2019 Sylabus
 
 
 ## 1) Basic programs using datatypes, operators, and control statements in Java
-* [Sum of Digits](/Lab_Cycle/Cycle_1/VishruthS_Q10_SparseSum.c)
+* [Sum of Digits](Lab_Cycle/Cycle_1/Sumofdigits.java)
 * [Sparse matrix multilplication](/!Lab%20Cycle%20Programs/CYCLE_2/VishruthS_Q11_SparseProduct.c)
 * [Polynomial addition](/!Lab%20Cycle%20Programs/CYCLE_2/VishruthS_Q20_PolynomialAddArray.c)
 * Polynomial multiplication
