@@ -12,6 +12,6 @@ KTU 2019 Sylabus
 #### 6) Standard Searching and Sorting Algorithms using data structures and algorithms
 
 
-## 1) Basic programs using datatypes, operators, and control statements in Java
+## 1) Basic programs
 * [Sum of Digits](/Lab_Cycle/Cycle_1/Sumofdigits.java)
 * [Largest of N numbers](/Lab_Cycle/Cycle_1/LargestOfN.java)
