@@ -18,3 +18,7 @@ KTU 2019 Sylabus
 * [Largest of N numbers](/Lab_Cycle/Cycle_2/Freq.java)
 * [Matrix Multiplication](/ab_Cycle/Cycle_2/MatMultiply.java)
 * [Plaindrome String](/Lab_Cycle/Cycle_2/Palindrome.java)
+* [Reverse a string](/Lab_Cycle/Cycle_3/Reverse.java)
+* [Prime or not](/Lab_Cycle/Cycle_3/Primeornot.java)
+* [Second smallest element in an array](/Lab_Cycle/Cycle_3/SecSmallest.java)
+* [Transporse matrix](Lab_Cycle/Cycle_3/Transporse.java)
