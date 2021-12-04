@@ -1,4 +1,4 @@
-package Lab_Cycle.Lab11;
+package Lab_Cycle.Cycle_1;
 import java.util.Scanner;
 
 public class LargestOfN {
