@@ -1,5 +1,4 @@
-package lab1;
-
+package Lab_Cycle.Lab11;
 public class Example2 {
     public static void main(String args []) {
         int num; 
