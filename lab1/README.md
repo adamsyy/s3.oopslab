@@ -4,5 +4,7 @@ Example2.java: kinda same as before
 </br>
 Example3.java: just to show how input works
 </br>
-Sumofdigits.java: find sum of digits of a number
+Sumofdigits.java: Find the sum of digits in an integer read from the keyboard
 </br>
+LargestOfN.java: Find the largest of N numbers, without using array.
+
