@@ -4,7 +4,7 @@ KTU 2019 Sylabus
 # TOPICS
 
 
-#### 1) Basic programs using datatypes, operators, and control statements in Java
+#### 1) Basic programs 
 #### 2) Object Oriented Programming Concepts
 #### 3) Handling different types of files as well as input and output management methods
 #### 4) Exception handling and multi-threading applications
