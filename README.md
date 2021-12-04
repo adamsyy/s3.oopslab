@@ -14,4 +14,7 @@ KTU 2019 Sylabus
 
 ## 1) Basic programs
 * [Sum of Digits](/Lab_Cycle/Cycle_1/Sumofdigits.java)
-* [Largest of N numbers](/Lab_Cycle/Cycle_1/LargestOfN.java)
+* [Frequency of a character in a string](/Lab_Cycle/Cycle_1/LargestOfN.java)
+* [Largest of N numbers](/Lab_Cycle/Cycle_2/Freq.java)
+* [Matrix Multiplication](/ab_Cycle/Cycle_2/MatMultiply.java)
+* [Plaindrome String](/Lab_Cycle/Cycle_2/Palindrome.java)
