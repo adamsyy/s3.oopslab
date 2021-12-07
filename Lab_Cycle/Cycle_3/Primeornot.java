@@ -7,6 +7,8 @@ public class Primeornot {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the number");
     int n=sc.nextInt();
+    int j=0;
+    
 System.out.println(isPrime(n));
     }
 
