@@ -8,8 +8,8 @@ public class Reverse {
        System.out.println("Enter the String");
         String str=sc.nextLine();
         String reverse = "";
-
-        for (int i = str.length() - 1; i >= 0; i--) {
+int len=str.length();
+        for (int i = len-1; i >= 0; i--) {
             reverse = reverse + str.charAt(i);
         }
         System.out.println(reverse);
