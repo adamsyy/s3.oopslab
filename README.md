@@ -22,3 +22,7 @@ KTU 2019 Sylabus
 * [Prime or not](/Lab_Cycle/Cycle_3/Primeornot.java)
 * [Second smallest element in an array](/Lab_Cycle/Cycle_3/SecSmallest.java)
 * [Transporse matrix](Lab_Cycle/Cycle_3/Transporse.java)
+
+## 1) Object Oriented Programming Concepts
+* [Employee](Lab_Cycle/Cycle_4/Employee.java)
+* [Employee2](Lab_Cycle/Cycle_4/Employee2.java)
