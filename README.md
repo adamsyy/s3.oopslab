@@ -23,6 +23,6 @@ KTU 2019 Sylabus
 * [Second smallest element in an array](/Lab_Cycle/Cycle_3/SecSmallest.java)
 * [Transporse matrix](Lab_Cycle/Cycle_3/Transporse.java)
 
-## 1) Object Oriented Programming Concepts
-* [Employee](Lab_Cycle/Cycle_4/Employee.java)
-* [Employee2](Lab_Cycle/Cycle_4/Employee2.java)
+## 1) Basic Object Oriented Programming Concepts
+* [Employee Engineer](Lab_Cycle/Cycle_4/Employee.java)
+* [Employee class of Officer and manager](Lab_Cycle/Cycle_4/Employee2.java)
