@@ -1,24 +1,68 @@
 package Lab_Cycle.Cycle_4;
 
-public class Employee {
-    public static void display(){
-System.out.println("Name of class in Employee");
+import java.io.*;
+import java.util.*;
+
+class employee {
+
+    String name, address;
+    int age;
+    long ph;
+    float salary, pf, gr;
+
+    void print_salary() {
+        System.out.println("Salary: " + salary);
     }
-    public static void calcsalary(){
-        System.out.println("salary of employee is 10000");
+
+    void read() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Name: ");
+        name = sc.nextLine();
+        System.out.println("Enter Age: ");
+        age = sc.nextInt();
+        System.out.println("Enter Phone number: ");
+        ph = sc.nextLong();
+        System.out.println("Enter Address: ");
+        address = sc.nextLine();
+        address = sc.nextLine();
+        System.out.println("Enter Gross Salary: ");
+        gr = sc.nextFloat();
+        System.out.println("Enter Pf: ");
+        pf = sc.nextFloat();
+        System.out.println("\n\n\n");
     }
-    public static void main(String[] args) {
-      Engineer eng=new Engineer();
-      eng.calcsalary();
-      Employee.display();      
+
+    void display() {
+        System.out.println("Name: " + name);
+
+        System.out.println("Age: " + age);
+
+        System.out.println("Phone number: " + ph);
+
+        System.out.println("Address: " + address);
+
     }
-}
- class Engineer extends Employee{
-    public static void display(){
-        System.out.println("Name of class in Enggineer");
-            }
-            public static void calcsalary(){
-                System.out.println("Salary of employee is 20000");
-            }
 }
 
+class engineer extends employee {
+    void display_salary() {
+        System.out.println("Salary: " + salary);
+    }
+
+    void calc_salary() {
+        salary = gr - pf;
+    }
+}
+
+class Inheritance1 {
+
+    public static void main(String args[]) {
+
+        engineer en = new engineer();
+        en.read();
+        en.display();
+        en.calc_salary();
+        en.display_salary();
+    }
+
+}
