@@ -1,4 +1,4 @@
-Employee.java: Write two java classes Employer and Engineer. Engineer should inherit from Employee class. Employee class to have two methods display() and calcSalary(). Write a program to display the engineer salary and to display from Employee class using a single object instantiation.(ie. only one object creation allowed)
+Inheritance1.java: Write two java classes Employer and Engineer. Engineer should inherit from Employee class. Employee class to have two methods display() and calcSalary(). Write a program to display the engineer salary and to display from Employee class using a single object instantiation.(ie. only one object creation allowed)
 -> display() only prints the name of the class and doe snot return any value. Ex. "Name of class in Employee"
 -> calcSalary() in Employee displays "salary of employee is 10000" and calcSalary() in Engineer displays "Salary of employee is 20000"
 </br>
