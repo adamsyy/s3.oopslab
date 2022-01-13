@@ -1,17 +1,16 @@
-package Lab_Cycle.Cycle_6;
-
+package Additional_Qns;
 
 import java.util.Arrays;
 
 public class Quicksort {
     public static void main(String[] args) {
-        String[] arr = {"Boby","Zebraboi","Janko","Adam"};
+        int[] arr = {5, 4, 3, 2, 1};
       sort(arr, 0, arr.length - 1);
       System.out.println(Arrays.toString(arr));
      
     }
 
-    static void sort(String[] name, int low, int hi) {
+    static void sort(int[] nums, int low, int hi) {
         if (low >= hi) {
             return;
         }
@@ -19,29 +18,29 @@ public class Quicksort {
         int s = low;
         int e = hi;
         int m = s + (e - s) / 2;
-        String pivot = name[m];
+        int pivot = nums[m];
 
         while (s <= e) {
 
-           
-            while (name[s].compareTo(pivot)<0) {
+            // also a reason why if its already sorted it will not swap
+            while (nums[s] < pivot) {
                 s++;
             }
-            while (name[e].compareTo(pivot)>0) {
+            while (nums[e] > pivot) {
                 e--;
             }
 
             if (s <= e) {
-                String temp = name[s];
-                name[s] = name[e];
-                name[e] = temp;
+                int temp = nums[s];
+                nums[s] = nums[e];
+                nums[e] = temp;
                 s++;
                 e--;
             }
         }
 
-        
-        sort(name, low, e);
-        sort(name, s, hi);
+        // now my pivot is at correct index, please sort two halves now
+        sort(nums, low, e);
+        sort(nums, s, hi);
     }
 }
