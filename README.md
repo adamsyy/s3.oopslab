@@ -22,7 +22,14 @@ KTU 2019 Sylabus
 * [Prime or not](/Lab_Cycle/Cycle_3/Primeornot.java)
 * [Second smallest element in an array](/Lab_Cycle/Cycle_3/SecSmallest.java)
 * [Transporse matrix](Lab_Cycle/Cycle_3/Transporse.java)
+* [Quick sort](Lab_Cycle/Cycle_6/Quicksort.java)
+* [Doubly Linked List](Lab_Cycle/Cycle_6/Dll.java)
+* [Binary Search](Lab_Cycle/Cycle_6/Binarysearch.java)
 
-## 1) Basic Object Oriented Programming Concepts
+## 2) Basic Object Oriented Programming Concepts
 * [Employee Engineer](Lab_Cycle/Cycle_4/Employee.java)
 * [Employee class of Officer and manager](Lab_Cycle/Cycle_4/Employee2.java)
+* [Function overloading](Lab_Cycle/Cycle_5/Areas.java)
+* [Garbage collector](Lab_Cycle/Cycle_5/Garbage.java)
+
+
