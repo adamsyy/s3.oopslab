@@ -30,7 +30,10 @@ else {
 
        }
    
-   if(flag==0){System.out.println("element not found");}
+   if(flag==0){System.out.println("element not found");
+
+
+}
    
     }
 }
