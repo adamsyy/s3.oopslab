@@ -1,24 +1,37 @@
 package Playground;
 
+import java.util.*;
+
 public class Demoexception {
     public static void main(String args[]) {
+        ArrayList<String> al = new ArrayList<String>();
+        al.add("1");
+        al.add("3");
+        al.add("3");
+String x="adsmsiodieodu";
+//string handling
+        
+//string functions
+        String s="hello";
+        String s2="hello";
+        String s3="hello";
+        String s4="hello";
+       
+        s.length();
+        s.charAt(0);
+        s.indexOf("h");
+        s.lastIndexOf("l");
 
-        int a[] = new int[4];
         try {
-for(int c=0;c<=4;c++){
- a[c]=c+1;
-
-} 
-
-        } catch (ArithmeticException e) {
-            System.out.println("out of bound ahne");
+            if (x.length() > 5) {
+                throw new Exception("String length is greater than 5");
+            }
+        } catch (Exception e) {
+            System.out.println(e);
         }
-        catch (IndexOutOfBoundsException e) {
-            System.out.println("out of bound ahne 2");
-        }
-        finally {
-            System.out.println("finally");
-        }
-
+        Iterator itr=al.iterator();
+       
+            System.out.println(itr.hasNext());
+            //System.out.println(itr.next());
     }
 }
