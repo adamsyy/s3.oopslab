@@ -15,7 +15,7 @@ class RandomGenerator  extends Thread {
 			getRandom(15);
 			try {
 				sleep(1000);
-			}catch(InterruptedException e) {
+			}catch(Exception e) {
 				System.out.println(e);
 			}
 		}
@@ -60,6 +60,7 @@ class OddPrinter extends Thread {
 
 public class MultiThreadRandom {
 	public static void main(String args[]) {
+//
 		new RandomGenerator();
 		System.out.println("Use Ctrl + C to stop Excecution");
 	}
